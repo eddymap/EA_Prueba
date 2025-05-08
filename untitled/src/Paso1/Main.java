@@ -10,5 +10,12 @@ public class Main {
         lluvia[0]=23; lluvia[1]=24; lluvia[2]=20; lluvia[3]=21; lluvia[4]=26;
         lluvia[5]=22; lluvia[6]=23; lluvia[7]=23; lluvia[8]=22; lluvia[9]=25;
         lluvia[10]=22; lluvia[11]=20;
+//Lluvias x mes
+        for(int i=0; i<lluvia.length; i++)
+            System.out.println("la lluvia en " + meses[i]+ " es: " +lluvia[i]+ " l/m2");
+
+for(String nombreMes : meses)
+    System.out.println(nombreMes);
+
     }
 }
